@@ -1,6 +1,7 @@
 module.exports = function multiply(first, second) {
   // your solution
-  let res = [0], x = 0;
+  let res = [], x = 0;
+      res[0] = 0;
   
   for(let j = second.length - 1; j > -1; j--){
   
